@@ -7,7 +7,9 @@
     "data:grow": "node app/dataset/grow.js",
     "data:summarize": "node app/dataset/summarize.js",
     "data:review": "node app/dataset/review.js",
-    "test": "jest"
+    "data:info": "node app/dataset/info.js",
+    "menu": "node app/menu.js",
+    "finetune": "node app/finetune.js"
   },
   "jest": {
     "testEnvironment": "node"
@@ -20,8 +22,14 @@
     "jest": "^29.7.0"
   },
   "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.3.0",
     "dotenv": "^16.4.5",
+    "figlet": "^1.6.0",
+    "inquirer": "^10.1.8",
+    "open": "^10.1.0",
     "openai": "^4.56.1",
+    "ora": "^8.1.0",
     "zod": "^3.23.8"
   }
 }
