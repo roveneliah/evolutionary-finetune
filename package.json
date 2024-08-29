@@ -1,0 +1,27 @@
+{
+  "name": "openai-finetune",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "data:grow": "node app/dataset/grow.js",
+    "data:summarize": "node app/dataset/summarize.js",
+    "data:review": "node app/dataset/review.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.56.1",
+    "zod": "^3.23.8"
+  }
+}
