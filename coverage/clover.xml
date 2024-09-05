@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1725056055563" clover="3.2.0">
+  <project timestamp="1725056055563" name="All files">
+    <metrics statements="63" coveredstatements="22" conditionals="20" coveredconditionals="0" methods="22" coveredmethods="6" elements="105" coveredelements="28" complexity="0" loc="63" ncloc="63" packages="3" files="13" classes="13"/>
+    <package name="app.dataset.info">
+      <metrics statements="36" coveredstatements="16" conditionals="4" coveredconditionals="0" methods="12" coveredmethods="6"/>
+      <file name="constants.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/app/dataset/info/constants.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="createColorGradient.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/app/dataset/info/createColorGradient.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+      </file>
+      <file name="createProgressBar.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/app/dataset/info/createProgressBar.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+      </file>
+      <file name="filterValidEntries.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/app/dataset/info/filterValidEntries.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+      </file>
+      <file name="formatInfoLine.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/app/dataset/info/formatInfoLine.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+      <file name="getDatasetInfo.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/app/dataset/info/getDatasetInfo.js">
+        <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="loadData.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/app/dataset/info/loadData.js">
+        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="parseFileContent.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/app/dataset/info/parseFileContent.js">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="parseJsonLine.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/app/dataset/info/parseJsonLine.js">
+        <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="readFile.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/app/dataset/info/readFile.js">
+        <metrics statements="6" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.dataset">
+      <metrics statements="24" coveredstatements="4" conditionals="13" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="createRandomSubsets.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/lib/dataset/createRandomSubsets.js">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="loadDataset.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/lib/dataset/loadDataset.js">
+        <metrics statements="21" coveredstatements="3" conditionals="13" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.schema">
+      <metrics statements="3" coveredstatements="2" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="datasetSchema.js" path="/Users/elihanover/Documents/dev/001-llama-listener/openai-finetune/lib/schema/datasetSchema.js">
+        <metrics statements="3" coveredstatements="2" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="3"/>
+      </file>
+    </package>
+  </project>
+</coverage>
